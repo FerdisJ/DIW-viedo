@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Àudio i Vídeo</title>
+</head>
+<body>
+    <!-- Àudio -->
+    <audio controls>
+        <source src="media/techbg.mp3" type="audio/mp3">
+        Ho sento, el teu navegador no suporta àudio d'HTML5.
+    </audio>
+
+    <div style="padding: 1em; margin-bottom: 1em; border: 1px solid #ccc; background-color: #eee;">
+        "<a rel="nofollow" class="external text" href="https://timtaj.com/royalty-free-music/background-technology">Background Technology</a>" 
+        by <a rel="nofollow" class="external text" href="https://freemusicarchive.org/music/timtaj/contact">Taj Tim</a> 
+        is licensed under 
+        <a rel="nofollow" class="external text" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>.
+    </div>
+
+    <hr>
+
+    <!-- Vídeo amb subtítols -->
+    <video controls poster="portada.svg" width="640">
+        <source src="VideoDIW.mp4" type="video/mp4">
+        <source src="VideoDIW.ogg" type="video/ogg">
+
+        <!-- Subtítols -->
+        <track src="media/captions/metro-cat.vtt" label="Català" kind="subtitles" srclang="ca" default>
+        <track src="media/captions/metro-es.vtt" label="Español" kind="subtitles" srclang="es">
+
+        El teu navegador no suporta l'element HTML <code>video</code>.
+    </video>
+</body>
+</html>
